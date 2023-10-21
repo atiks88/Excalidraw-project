@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="script.js">
+    <title>Document</title>
+</head>
+
+<body>
+
+   <section id="root">
+
+         <!-- section 1 for upper section -->
+         <section class="main-conatiner">
+
+            <div class="nav-container">
+    
+                <div>
+    
+                    <button aria-label="focusable" class="option-btn">
+                        <svg aria-hidden="true" focusable="false" role="img" viewBox="0 0 24 24" class="opt" fill="none"
+                            width="15" stroke-width="2" stroke="currentColor" stroke-linecap="round"
+                            stroke-linejoin="round">
+                            <g stroke-width="1.5">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <line x1="4" y1="6" x2="20" y2="6"></line>
+                                <line x1="4" y1="12" x2="20" y2="12"></line>
+                                <line x1="4" y1="18" x2="20" y2="18"></line>
+                            </g>
+                        </svg>
+                    </button>
+    
+                </div>
+    
+                <div class="canva-btn-container">
+    
+                    <button aria-label="focusable" class="opt-btn">
+                        <svg aria-hidden="true" focusable="false" role="img" viewBox="0 0 20 20" class="opt-in" fill="none"
+                            width="20" height="25" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+                            <g>
+                                <path
+                                    d="M13.542 8.542H6.458a2.5 2.5 0 0 0-2.5 2.5v3.75a2.5 2.5 0 0 0 2.5 2.5h7.084a2.5 2.5 0 0 0 2.5-2.5v-3.75a2.5 2.5 0 0 0-2.5-2.5Z"
+                                    stroke="currentColor" stroke-width="1.25"></path>
+                                <path d="M10 13.958a1.042 1.042 0 1 0 0-2.083 1.042 1.042 0 0 0 0 2.083Z"
+                                    stroke="currentColor" stroke-width="1.25"></path>
+                                <mask id="UnlockedIcon" maskUnits="userSpaceOnUse" x="6" y="1" width="9" height="9">
+                                    <path stroke="none"
+                                        d="M6.399 9.561V5.175c0-.93.401-1.823 1.116-2.48a3.981 3.981 0 0 1 2.693-1.028c1.01 0 1.98.37 2.694 1.027.715.658 1.116 1.55 1.116 2.481"
+                                        fill="#fff"></path>
+                                </mask>
+                                <g mask="url(#UnlockedIcon)">
+                                    <path stroke="none"
+                                        d="M5.149 9.561v1.25h2.5v-1.25h-2.5Zm5.06-7.894V.417v1.25Zm2.559 3.508v1.25h2.5v-1.25h-2.5ZM7.648 8.51V5.175h-2.5V8.51h2.5Zm0-3.334c0-.564.243-1.128.713-1.561L6.668 1.775c-.959.883-1.52 2.104-1.52 3.4h2.5Zm.713-1.561a2.732 2.732 0 0 1 1.847-.697v-2.5c-1.31 0-2.585.478-3.54 1.358L8.36 3.614Zm1.847-.697c.71 0 1.374.26 1.847.697l1.694-1.839a5.231 5.231 0 0 0-3.54-1.358v2.5Zm1.847.697c.47.433.713.997.713 1.561h2.5c0-1.296-.56-2.517-1.52-3.4l-1.693 1.839Z"
+                                        fill="currentColor"></path>
+                                </g>
+                            </g>
+                        </svg>
+                    </button>
+    
+                    <div class="App-toolbar__divider"></div>
+    
+                    <button aria-label="focusable" class="opt-btn">
+                        <svg aria-hidden="true" focusable="false" role="img" viewBox="0 0 24 24" class="opt-in" fill="none"
+                            width="20" height="25" stroke-width="2" stroke="currentColor" stroke-linecap="round"
+                            stroke-linejoin="round">
+                            <g stroke-width="1.25">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M8 13v-7.5a1.5 1.5 0 0 1 3 0v6.5"></path>
+                                <path d="M11 5.5v-2a1.5 1.5 0 1 1 3 0v8.5"></path>
+                                <path d="M14 5.5a1.5 1.5 0 0 1 3 0v6.5"></path>
+                                <path
+                                    d="M17 7.5a1.5 1.5 0 0 1 3 0v8.5a6 6 0 0 1 -6 6h-2h.208a6 6 0 0 1 -5.012 -2.7a69.74 69.74 0 0 1 -.196 -.3c-.312 -.479 -1.407 -2.388 -3.286 -5.728a1.5 1.5 0 0 1 .536 -2.022a1.867 1.867 0 0 1 2.28 .28l1.47 1.47">
+                                </path>
+                            </g>
+                        </svg>
+                    </button>
+    
+    
+                    <button aria-label="focusable" class="opt-btn">
+                        <svg aria-hidden="true" focusable="false" role="img" viewBox="0 0 22 22" class="opt-in" fill="none"
+                            width="20" height="25" stroke-width="1.25">
+                            <g stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path
+                                    d="M6 6l4.153 11.793a0.365 .365 0 0 0 .331 .207a0.366 .366 0 0 0 .332 -.207l2.184 -4.793l4.787 -1.994a0.355 .355 0 0 0 .213 -.323a0.355 .355 0 0 0 -.213 -.323l-11.787 -4.36z">
+                                </path>
+                                <path d="M13.5 13.5l4.5 4.5"></path>
+                            </g>
+                        </svg>
+                        <p class="opt-btn-p">1</p>
+                    </button>
+    
+    
+                    <button aria-label="focusable" class="opt-btn">
+                        <svg aria-hidden="true" focusable="false" role="img" viewBox="0 0 24 24" class="opt-in" fill="none"
+                            width="20" height="25" stroke-width="2" stroke="currentColor" stroke-linecap="round"
+                            stroke-linejoin="round">
+                            <g stroke-width="1.5">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <rect x="4" y="4" width="16" height="16" rx="2"></rect>
+                            </g>
+                        </svg>
+                        <p class="opt-btn-p">2</p>
+                    </button>
+    
+    
+                    <button aria-label="focusable" class="opt-btn">
+                        <svg aria-hidden="true" focusable="false" role="img" viewBox="0 0 24 24" class="opt-in" fill="none"
+                            width="20" height="25" stroke-width="2" stroke="currentColor" stroke-linecap="round"
+                            stroke-linejoin="round">
+                            <g stroke-width="1.5">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path
+                                    d="M10.5 20.4l-6.9 -6.9c-.781 -.781 -.781 -2.219 0 -3l6.9 -6.9c.781 -.781 2.219 -.781 3 0l6.9 6.9c.781 .781 .781 2.219 0 3l-6.9 6.9c-.781 .781 -2.219 .781 -3 0z">
+                                </path>
+                            </g>
+                        </svg>
+                        <p class="opt-btn-p">3</p>
+                    </button>
+    
+    
+                    <button aria-label="focusable" class="opt-btn">
+                        <svg aria-hidden="true" focusable="false" role="img" viewBox="0 0 24 24" class="opt-in" fill="none"
+                            width="20" height="25" stroke-width="2" stroke="currentColor" stroke-linecap="round"
+                            stroke-linejoin="round">
+                            <g stroke-width="1.5">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <circle cx="12" cy="12" r="9"></circle>
+                            </g>
+                        </svg>
+                        <p class="opt-btn-p">4</p>
+                    </button>
+    
+    
+                    <button aria-label="focusable" class="opt-btn">
+                        <svg aria-hidden="true" focusable="false" role="img" viewBox="0 0 24 24" class="opt-in" fill="none"
+                            width="20" height="25" stroke-width="2" stroke="currentColor" stroke-linecap="round"
+                            stroke-linejoin="round">
+                            <g stroke-width="1.5">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <line x1="5" y1="12" x2="19" y2="12"></line>
+                                <line x1="15" y1="16" x2="19" y2="12"></line>
+                                <line x1="15" y1="8" x2="19" y2="12"></line>
+                            </g>
+                        </svg>
+                        <p class="opt-btn-p">5</p>
+                    </button>
+    
+    
+                    <button aria-label="focusable" class="opt-btn">
+                        <svg aria-hidden="true" focusable="false" role="img" viewBox="0 0 20 20" class="opt-in" fill="none"
+                            width="20" height="25" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M4.167 10h11.666" stroke-width="1.5"></path>
+                        </svg>
+                        <p class="opt-btn-p">6</p>
+                    </button>
+    
+    
+                    <button aria-label="focusable" class="opt-btn">
+                        <svg aria-hidden="true" focusable="false" role="img" viewBox="0 0 20 20" class="opt-in" fill="none"
+                            width="20" height="25" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+                            <g stroke-width="1.25">
+                                <path clip-rule="evenodd"
+                                    d="m7.643 15.69 7.774-7.773a2.357 2.357 0 1 0-3.334-3.334L4.31 12.357a3.333 3.333 0 0 0-.977 2.357v1.953h1.953c.884 0 1.732-.352 2.357-.977Z">
+                                </path>
+                                <path d="m11.25 5.417 3.333 3.333"></path>
+                            </g>
+                        </svg>
+                        <p class="opt-btn-p">7</p>
+                    </button>
+    
+    
+                    <button aria-label="focusable" class="opt-btn">
+                        <svg aria-hidden="true" focusable="false" role="img" viewBox="0 0 24 24" class="opt-in" fill="none"
+                            width="20" height="25" stroke-width="2" stroke="currentColor" stroke-linecap="round"
+                            stroke-linejoin="round">
+                            <g stroke-width="1.5">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <line x1="4" y1="20" x2="7" y2="20"></line>
+                                <line x1="14" y1="20" x2="21" y2="20"></line>
+                                <line x1="6.9" y1="15" x2="13.8" y2="15"></line>
+                                <line x1="10.2" y1="6.3" x2="16" y2="20"></line>
+                                <polyline points="5 20 11 4 13 4 20 20"></polyline>
+                            </g>
+                        </svg>
+                        <p class="opt-btn-p">8</p>
+                    </button>
+    
+    
+                    <button aria-label="focusable" class="opt-btn">
+                        <svg aria-hidden="true" focusable="false" role="img" viewBox="0 0 20 20" class="opt-in" fill="none"
+                            width="20" height="25" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+                            <g stroke-width="1.25">
+                                <path d="M12.5 6.667h.01"></path>
+                                <path
+                                    d="M4.91 2.625h10.18a2.284 2.284 0 0 1 2.285 2.284v10.182a2.284 2.284 0 0 1-2.284 2.284H4.909a2.284 2.284 0 0 1-2.284-2.284V4.909a2.284 2.284 0 0 1 2.284-2.284Z">
+                                </path>
+                                <path d="m3.333 12.5 3.334-3.333c.773-.745 1.726-.745 2.5 0l4.166 4.166"></path>
+                                <path d="m11.667 11.667.833-.834c.774-.744 1.726-.744 2.5 0l1.667 1.667"></path>
+                            </g>
+                        </svg>
+                        <p class="opt-btn-p">9</p>
+                    </button>
+    
+    
+                    <button aria-label="focusable" class="opt-btn">
+                        <svg aria-hidden="true" focusable="false" role="img" viewBox="0 0 24 24" class="opt-in" fill="none"
+                            width="20" height="25" stroke-width="2" stroke="currentColor" stroke-linecap="round"
+                            stroke-linejoin="round">
+                            <g stroke-width="1.5">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path
+                                    d="M19 20h-10.5l-4.21 -4.3a1 1 0 0 1 0 -1.41l10 -10a1 1 0 0 1 1.41 0l5 5a1 1 0 0 1 0 1.41l-9.2 9.3">
+                                </path>
+                                <path d="M18 13.3l-6.3 -6.3"></path>
+                            </g>
+                        </svg>
+                        <p class="opt-btn-p">0</p>
+                    </button>
+    
+                    <div class="App-toolbar__divider"></div>
+    
+                    <button aria-label="focusable" class="opt-btn">
+                        <svg aria-hidden="true" focusable="false" role="img" viewBox="0 0 24 24" class="opt-in" fill="none"
+                            width="20" height="25" stroke-width="2" stroke="currentColor" stroke-linecap="round"
+                            stroke-linejoin="round">
+                            <g stroke-width="1.5">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M12 3l-4 7h8z"></path>
+                                <path d="M17 17m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0"></path>
+                                <path d="M4 14m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z">
+                                </path>
+                            </g>
+                        </svg>
+                    </button>
+    
+                </div>
+    
+    
+                <div class="canva-btn-container-2">
+    
+                    <button aria-label="focusable" class="opt-btn-profile">
+                        <svg aria-hidden="true" focusable="false" role="img" viewBox="0 0 24 24" class="" fill="none"
+                            color="white" height="15" width="20" height="25" stroke-width="2" stroke="currentColor"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <g stroke-width="1.5">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <circle cx="9" cy="7" r="4"></circle>
+                                <path d="M3 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2"></path>
+                                <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                                <path d="M21 21v-2a4 4 0 0 0 -3 -3.85"></path>
+                            </g>
+                        </svg>
+                    </button>
+    
+                    <button aria-label="focusable" class="opt-btn-library">
+                        <svg aria-hidden="true" focusable="false" role="img" viewBox="0 0 24 24" class="" fill="none"
+                            color="black" width="20" height="25" stroke-width="2" stroke="currentColor"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <g stroke-width="1.5">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M3 19a9 9 0 0 1 9 0a9 9 0 0 1 9 0"></path>
+                                <path d="M3 6a9 9 0 0 1 9 0a9 9 0 0 1 9 0"></path>
+                                <line x1="3" y1="6" x2="3" y2="19"></line>
+                                <line x1="12" y1="6" x2="12" y2="19"></line>
+                                <line x1="21" y1="6" x2="21" y2="19"></line>
+                            </g>
+                        </svg>
+                        <i>Library</i>
+                    </button>
+    
+                </div>
+    
+    
+            </div>
+    
+            <div>
+    
+            </div>
+    
+        </section>
+
+    
+    <!-- canvas -->
+    <canvas id="canvas"></canvas>
+
+
+    <!-- section 3 -->
+    <section class="bottom-container">
+
+        <div class="bottom-container-zoom-div">
+
+
+            <div class="zoom-btn-container">
+                <button class="zoom-btn-minus" aria-label="zoom-btn-">
+                    <svg aria-hidden="true" focusable="false" role="img" viewBox="0 0 20 20" width="17" height="22"
+                        fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M5 10h10" stroke-width="1.25"></path>
+                    </svg>
+                </button>
+                <p>100%</p>
+                <button class="zoom-btn-plus" aria-label="zoom-btn+">
+                    <svg aria-hidden="true" focusable="false" role="img" viewBox="0 0 20 20" width="17" height="22"
+                        fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke-width="1.25" d="M10 4.167v11.666M4.167 10h11.666"></path>
+                    </svg>
+                </button>
+            </div>
+
+
+            <div class="undo-redo-container">
+
+                <button class="zoom-btn-undo" aria-label="zoom-btn-undo">
+                    <svg aria-hidden="true" focusable="false" role="img" viewBox="0 0 20 20" width="17" height="22"
+                        class="" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M7.5 10.833 4.167 7.5 7.5 4.167M4.167 7.5h9.166a3.333 3.333 0 0 1 0 6.667H12.5"
+                            stroke-width="1.25"></path>
+                    </svg>
+                </button>
+
+                <button class="zoom-btn-redo" aria-label="zoom-btn-redo">
+                    <svg aria-hidden="true" focusable="false" role="img" viewBox="0 0 20 20" width="17" height="22"
+                        class="" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M12.5 10.833 15.833 7.5 12.5 4.167M15.833 7.5H6.667a3.333 3.333 0 1 0 0 6.667H7.5"
+                            stroke-width="1.25"></path>
+                    </svg>
+                </button>
+
+            </div>
+
+
+        </div>
+
+
+        <div class="bottom-right-side-btns">
+
+            <button class="sheild-btn" aria-label="sheild-btn">
+                <svg aria-hidden="true" focusable="false" role="img" viewBox="0 0 24 24" width="20" height="25"
+                    class="">
+                    <path fill="currentColor"
+                        d="M11.553 22.894a.998.998 0 00.894 0s3.037-1.516 5.465-4.097C19.616 16.987 21 14.663 21 12V5a1 1 0 00-.649-.936l-8-3a.998.998 0 00-.702 0l-8 3A1 1 0 003 5v7c0 2.663 1.384 4.987 3.088 6.797 2.428 2.581 5.465 4.097 5.465 4.097zm-1.303-8.481l6.644-6.644a.856.856 0 111.212 1.212l-7.25 7.25a.856.856 0 01-1.212 0l-3.75-3.75a.856.856 0 111.212-1.212l3.144 3.144z">
+                    </path>
+                </svg>
+            </button>
+
+            <button class="help-btn" aria-label="help-btn">
+                <svg aria-hidden="true" focusable="false" role="img" viewBox="0 0 24 24" width="20" height="20" class=""
+                    fill="none" stroke-width="2" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+                    <g stroke-width="1.5">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <circle cx="12" cy="12" r="9"></circle>
+                        <line x1="12" y1="17" x2="12" y2="17.01"></line>
+                        <path d="M12 13.5a1.5 1.5 0 0 1 1 -1.5a2.6 2.6 0 1 0 -3 -4"></path>
+                    </g>
+                </svg>
+            </button>
+
+        </div>
+
+
+    </section>
+
+
+   </section>
+    <!-- section 4 -->
+    <!-- <section class="opt-menu-section">
+
+        <div class="opt-menu-one">
+
+            <button class="opt-menu-one-btns" aria-label="for-opt-options">
+                <div class="opt-menu-one-svg">
+                    <svg aria-hidden="true" focusable="false" role="img" viewBox="0 0 20 20" width="20" height="20" class="" fill="none"
+                        stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+                        <path
+                            d="m9.257 6.351.183.183H15.819c.34 0 .727.182 1.051.506.323.323.505.708.505 1.05v5.819c0 .316-.183.7-.52 1.035-.337.338-.723.522-1.037.522H4.182c-.352 0-.74-.181-1.058-.5-.318-.318-.499-.705-.499-1.057V5.182c0-.351.181-.736.5-1.054.32-.321.71-.503 1.057-.503H6.53l2.726 2.726Z"
+                            stroke-width="1.25"></path>
+                    </svg>
+                </div>
+                <div class="opt-menu-one-item">Open</div>
+                <div class="opt-menu-one-shortcut">Carlt+O</div>
+            </button>
+
+            <button class="opt-menu-one-btns" aria-label="for-opt-options">
+                <div class="opt-menu-one-svg">
+                    <svg aria-hidden="true" focusable="false" role="img" viewBox="0 0 20 20" width="20" height="20" class="" fill="none"
+                        stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+                        <path
+                            d="m9.257 6.351.183.183H15.819c.34 0 .727.182 1.051.506.323.323.505.708.505 1.05v5.819c0 .316-.183.7-.52 1.035-.337.338-.723.522-1.037.522H4.182c-.352 0-.74-.181-1.058-.5-.318-.318-.499-.705-.499-1.057V5.182c0-.351.181-.736.5-1.054.32-.321.71-.503 1.057-.503H6.53l2.726 2.726Z"
+                            stroke-width="1.25"></path>
+                    </svg>
+                </div>
+                <div class="opt-menu-one-item">Open</div>
+                <div class="opt-menu-one-shortcut">Carlt+O</div>
+            </button>
+
+            <button class="opt-menu-one-btns" aria-label="for-opt-options">
+                <div class="opt-menu-one-svg">
+                    <svg aria-hidden="true" focusable="false" role="img" viewBox="0 0 20 20" width="20" height="20" class="" fill="none"
+                        stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+                        <path
+                            d="m9.257 6.351.183.183H15.819c.34 0 .727.182 1.051.506.323.323.505.708.505 1.05v5.819c0 .316-.183.7-.52 1.035-.337.338-.723.522-1.037.522H4.182c-.352 0-.74-.181-1.058-.5-.318-.318-.499-.705-.499-1.057V5.182c0-.351.181-.736.5-1.054.32-.321.71-.503 1.057-.503H6.53l2.726 2.726Z"
+                            stroke-width="1.25"></path>
+                    </svg>
+                </div>
+                <div class="opt-menu-one-item">Open</div>
+                <div class="opt-menu-one-shortcut">Carlt+O</div>
+            </button>
+
+            <button class="opt-menu-one-btns" aria-label="for-opt-options">
+                <div class="opt-menu-one-svg">
+                    <svg aria-hidden="true" focusable="false" role="img" viewBox="0 0 20 20" width="20" height="20" class="" fill="none"
+                        stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+                        <path
+                            d="m9.257 6.351.183.183H15.819c.34 0 .727.182 1.051.506.323.323.505.708.505 1.05v5.819c0 .316-.183.7-.52 1.035-.337.338-.723.522-1.037.522H4.182c-.352 0-.74-.181-1.058-.5-.318-.318-.499-.705-.499-1.057V5.182c0-.351.181-.736.5-1.054.32-.321.71-.503 1.057-.503H6.53l2.726 2.726Z"
+                            stroke-width="1.25"></path>
+                    </svg>
+                </div>
+                <div class="opt-menu-one-item">Open</div>
+                <div class="opt-menu-one-shortcut">Carlt+O</div>
+            </button>
+
+            <button class="opt-menu-one-btns" aria-label="for-opt-options">
+                <div class="opt-menu-one-svg">
+                    <svg aria-hidden="true" focusable="false" role="img" viewBox="0 0 20 20" width="20" height="20" class="" fill="none"
+                        stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+                        <path
+                            d="m9.257 6.351.183.183H15.819c.34 0 .727.182 1.051.506.323.323.505.708.505 1.05v5.819c0 .316-.183.7-.52 1.035-.337.338-.723.522-1.037.522H4.182c-.352 0-.74-.181-1.058-.5-.318-.318-.499-.705-.499-1.057V5.182c0-.351.181-.736.5-1.054.32-.321.71-.503 1.057-.503H6.53l2.726 2.726Z"
+                            stroke-width="1.25"></path>
+                    </svg>
+                </div>
+                <div class="opt-menu-one-item">Open</div>
+                <div class="opt-menu-one-shortcut">Carlt+O</div>
+            </button>
+
+            <button class="opt-menu-one-btns" aria-label="for-opt-options">
+                <div class="opt-menu-one-svg">
+                    <svg aria-hidden="true" focusable="false" role="img" viewBox="0 0 20 20" width="20" height="20" class="" fill="none"
+                        stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+                        <path
+                            d="m9.257 6.351.183.183H15.819c.34 0 .727.182 1.051.506.323.323.505.708.505 1.05v5.819c0 .316-.183.7-.52 1.035-.337.338-.723.522-1.037.522H4.182c-.352 0-.74-.181-1.058-.5-.318-.318-.499-.705-.499-1.057V5.182c0-.351.181-.736.5-1.054.32-.321.71-.503 1.057-.503H6.53l2.726 2.726Z"
+                            stroke-width="1.25"></path>
+                    </svg>
+                </div>
+                <div class="opt-menu-one-item">Open</div>
+                <div class="opt-menu-one-shortcut">Carlt+O</div>
+            </button>
+
+            
+        </div>
+
+        <div class="opt-menu-two">
+            <button class="opt-menu-two-btns" aria-label="fot-opt-share-btn"></button>
+
+            <button class="opt-menu-two-btns" aria-label="fot-opt-share-btn"></button>
+
+            <button class="opt-menu-two-btns" aria-label="fot-opt-share-btn"></button>
+
+            <button class="opt-menu-two-btns" aria-label="fot-opt-share-btn"></button>
+        </div>
+
+        <div>
+
+        </div>
+
+    </section> -->
+
+    <script src="script.js"></script>
+</body>
+
+</html>
